@@ -35,6 +35,49 @@ body {
     margin-left: 0;
   }
 }
+.carousel{
+  height: 100px;
+}
+#navbar li{
+  position: relative;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 80%;
+  height: 2px;
+  background: #737474;
+  position: absolute;
+  bottom: -4px;
+  right: 50px;
+  color: #fff;
+}
+
+.costumize-card{
+  width: 330px;
+}
+.Cards span{
+font-size: 15px;
+}
+
+.Cards{
+  margin: 0 auto;
+}
+
+.Cards p{
+font-size: 10px;
+}
+
+.avatar-name{
+  font-size: 13px !important;
+  margin-top: 4px;
+}
+.costumize-card{
+  padding: 0;
+  gap: 12px;
+  margin: 50px 50px;
+}
+
 @media (max-width: 500px) {
   .logo {
     width: 244px;
