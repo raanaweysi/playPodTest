@@ -7,3 +7,52 @@ body {
 .header--navbar {
   height: 100px;
 }
+.avatar img {
+  margin-left: 115px;
+  margin-top: -70px;
+  border-radius: 21px;
+}
+.information-avatar{
+  margin-left: 115px;
+}
+.header-information-avatar{
+  margin-left: 115px;
+}
+
+@media (max-width: 900px) {
+  .navbar-mx--lg {
+    margin-right: 50px !important;
+    margin-left: 50px !important;
+  }
+  .header-information-avatar{
+    display: flex;
+    flex-direction: column;
+  }
+  .information-avatar{
+    margin-left: 0;
+  }
+  .header-information-avatar{
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .logo {
+    width: 244px;
+    height: 32px;
+  }
+  .button-avatar{
+    flex-direction: column;
+  }
+  .button-avatar button{
+    margin-bottom: 15px;
+    width: 315px !important;
+    height: 60px;
+  }
+  .button-avatar button span{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .carousel-header span{
+    display: none;
+  }
+}
