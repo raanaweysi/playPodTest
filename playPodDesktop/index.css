@@ -8,7 +8,7 @@ body {
   height: 100px;
 }
 .avatar img {
-  margin-left: 115px;
+  margin-left: 130px;
   margin-top: -70px;
   border-radius: 21px;
 }
@@ -60,14 +60,18 @@ body {
   position: absolute;
   bottom: -4px;
   right: 50px;
-  color: #fff;
+}
+
+.footer-column {
+  width: 20%;
+  margin: 30px 50px;
+}
+.copy-right-container {
+  font-size: 13px;
+  margin: 0 90px;
 }
 
 @media (max-width: 1000px) {
-  .navbar-mx--lg {
-    margin-right: 50px !important;
-    margin-left: 50px !important;
-  }
   .header-information-avatar {
     display: flex;
     flex-direction: column;
@@ -81,26 +85,81 @@ body {
   .costumize-card {
     margin: 20px 10px !important;
   }
+  .footer-container {
+    flex-direction: column !important;
+  }
+  .artist-information-container {
+    margin: 0 50px;
+  }
+  .copy-right-container {
+    font-size: 13px;
+    margin: 0 100px;
+  }
 }
 
 @media (max-width: 500px) {
+  .navbar-mx--sm {
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+  }
+
   .logo {
-    width: 244px;
+    width: 160px;
     height: 32px;
   }
-  .button-avatar {
+  .buttons-avatar {
     flex-direction: column;
   }
-  .button-avatar button {
+  .buttons-avatar button {
     margin-bottom: 15px;
-    width: 315px !important;
+    width: 325px !important;
     height: 60px;
   }
-  .button-avatar button span {
-    font-size: 16px;
+  .buttons-avatar button span {
+    font-size: 13px;
     font-weight: 600;
   }
   .carousel-header span {
     display: none;
   }
+  .input-email {
+    display: flex !important;
+    flex-direction: column;
+    width: 200px;
+    height: 110px;
+    padding-left: 0;
+    margin-left: 45px;
+  }
+  .subscribe-button {
+    width: 300px !important;
+    height: 110px;
+    margin-left: 0px !important;
+  }
+  .artist-information-container {
+    margin: 0 10px;
+  }
+  .copy-right-container {
+    margin: 0 50px;
+  }
+  .Baner-container img {
+    height: 250px;
+  }
+  .state-avatar span,
+  p {
+    font-size: 15px;
+  }
+  .text-copy-right {
+    font-size: 10px;
+  }
+  .header-information-avatar {
+    width: 320px;
+  }
+  .footer-column p {
+    width: 250px;
+    font-size: 13px !important;
+    color: #cccccc !important;
+  }
+  /* .footer-column p,span{
+    color: #CCCCCC;
+  } */
 }
