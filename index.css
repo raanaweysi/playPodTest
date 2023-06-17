@@ -220,4 +220,8 @@ body {
     width: 100%;
     padding-right: 0;
   }
+  .footer-container {
+    flex-direction: column !important;
+    margin-left: -20px !important;
+  }
 }
